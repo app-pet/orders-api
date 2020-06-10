@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const Order = mongoose.model('Order');
+const SlackService = require('./SlackService')
 
 class OrderService {
     constructor(){
@@ -15,6 +16,7 @@ class OrderService {
     }
 
     async createOrder(order){
+        SlackService.sendMessage(`Novo pedido: ${JSON.stringify(order)}`)
         return await Order.create(order)
     }
 }
