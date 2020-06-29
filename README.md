@@ -22,6 +22,10 @@ npm install
 ```
 npm start 
 ```
+## Testes
+```
+npm run test 
+```
 
 ## Deploy Docker 
 ```
