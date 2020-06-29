@@ -8,3 +8,17 @@ Back End: <p>
 Cobertura de Testes: <p>
   - [x] Unitários <p>
   - [x] BDD <p>
+
+## Requirementos
+```
+node, express, react, react-native, expo
+```
+
+## Instalação
+```
+npm install
+```
+## Run 
+```
+npm start 
+```
