@@ -22,3 +22,8 @@ npm install
 ```
 npm start 
 ```
+
+## Deploy Docker 
+```
+docker-compose up
+```
