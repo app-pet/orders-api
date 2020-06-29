@@ -11,7 +11,7 @@ Cobertura de Testes: <p>
 
 ## Requirementos
 ```
-node, express, react, react-native, expo
+node, nodemon, .net, docker
 ```
 
 ## Instalação
